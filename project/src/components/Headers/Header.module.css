@@ -1,0 +1,39 @@
+.Header {
+  grid-area: A;
+  background-color: hsl(0, 10%, 98%);
+}
+.Ava {
+  padding: 5px;
+  width: 300px;
+  text-align: center;
+}
+.Group {
+  text-decoration: none;
+}
+.Group img {
+  width: 20px;
+}
+.NameHeader {
+  font-size: 46px;
+  font-weight: 600;
+  @media (max-width: 1060px) {
+    font-size: 34px;
+  }
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+.HeaderContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px;
+    height: 200px;
+  }
+}
